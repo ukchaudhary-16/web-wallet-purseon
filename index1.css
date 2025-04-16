@@ -1,0 +1,104 @@
+/* By default design */
+*{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    overflow-x: hidden;
+}
+/* Main title of the page */
+.main_head{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 1.5em;
+    padding-top: 2px;
+}
+.special{
+    color: brown;
+
+}
+/* Second part of the page */
+.purseOn{
+    font-size:30px;
+    font-weight:bold;
+    padding-bottom: 9px;
+    margin-left:4px;
+    padding-left: 2.5px;
+}
+
+.sub_head1{
+    color: rgba(240, 236, 236, 0.717);
+    font-size:20px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#italics{
+    color: rgb(220, 127, 13);
+}
+/* Styles related to button 1 ie Ethereum */
+.button{
+    display:inline-block;
+    position: relative;
+}
+#button1{
+    background-color: rgb(11, 41, 161);
+    color: rgb(254, 254, 254);
+    border-color: white;
+    font-size:20px;
+    height: 2em;
+    width:5em;
+    margin-left:20px ;
+    border: 2px solid white;
+    /* cursor: pointer; */
+    transition-duration: 0.1s;
+    padding:0px;
+    border-radius:15px;
+    
+}
+#button1:hover{
+    color: rgb(38, 0, 255);
+    background-color: rgb(220, 127, 13);
+    border: none;
+}
+
+/* Styles related to button 2 ie Solana */
+
+#button2{
+    
+    background-color: rgb(11, 41, 161);
+    color: rgb(254, 254, 254);
+    border-color: white;
+    font-size:20px;
+    height: 2em;
+    width:5em;
+    margin-left:20px ;
+    border: 2px solid white;
+    /* cursor: pointer; */
+    transition-duration: 0.1s;
+    padding:0px;
+    border-radius:15px;
+}
+#button2:hover{
+    color: rgb(38, 0, 255);
+    background-color: rgb(220, 127, 13);
+    border: none;
+}
+
+/* For footer */
+.footer{
+    
+}
+#hr_line{
+    position: absolute;
+    bottom: 65px;
+    width: 100%; /* Sets the width to match the viewport */
+    /* max-width: 100%; Prevents it from exceeding the viewport */
+    
+    
+}
+.sub_foot1{
+    position: absolute;
+    bottom:15px;
+    padding-left:10px;
+    font-weight:bolder
+}

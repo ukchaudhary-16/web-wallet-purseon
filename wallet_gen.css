@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header{
+ color: rgb(220, 127, 13);
+ padding-left:10px;
+ padding-top:2em;
+ font-weight: bold;
+ font-size:20px;
+}
+
+.head_text{
+  font-weight: bolder;
+  font-size:35px;
+  padding-top:25px;
+  padding-left:25px;
+}
+.sec_text{
+  color:rgb(167, 164, 164);
+  font-weight:bold;
+  font-size:19px;
+  padding-top:5px;
+  padding-left:25px;
+}
+
+#hr_line{
+  position: absolute;
+  bottom: 65px;
+  width: 100%; /* Sets the width to match the viewport */
+  /* max-width: 100%; Prevents it from exceeding the viewport */
+  
+  
+}
+.sub_foot1{
+  position: absolute;
+  bottom:15px;
+  padding-left:10px;
+  font-weight:bolder
+}
+
+.phrase{
+  padding:5px;
+  margin-top:2rem;
+  margin-left:35px;
+  width:900px;
+  background-color: black;
+  color:rgb(167, 164, 164);
+  outline: none;
+  border-radius: 5px;
+  border: solid .2px rgb(207, 207, 207);
+}
